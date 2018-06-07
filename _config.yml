@@ -19,4 +19,4 @@ twitter_username: jekyllrb
 markdown: kramdown
 
 sass:
-    sass_dir: _sass
+  sass_dir: _sass
