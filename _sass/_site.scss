@@ -1,0 +1,226 @@
+//Google font for the template
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+// Covive variables
+$main-color: #00e6c7;
+$title-color: #393c3e;
+$text-color: #393c3e;
+$almost-white: #f2f2f2;
+$light-grey: #d7d8d8;
+
+$almost-black: #1b1b1b;
+$white: #ffffff;
+$old-blue: #4eb0b8;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img{
+  width: auto;
+}
+
+//BUTTON
+.btn-black {
+  background-color: $almost-black;
+  border-radius: 0px !important;
+  color: $white !important;
+
+  &:hover{
+    color: $old-blue !important;
+  }
+}
+
+// HOME
+figure.header {
+  margin-bottom: 0px;
+  position: relative;
+  overflow: hidden;
+
+  img.back {
+    display: block;
+    width: 100%;
+    height: auto;
+    @media screen and (max-width: 992px) {
+      left: -50%;
+      position: relative;
+      width: 400% !important;
+
+    }
+  }
+
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 70px;
+
+    h1 {
+      color: $white;
+      font-size: 48px;
+      font-weight: 100;
+      letter-spacing: 1px;
+      margin-top: 80px;
+    }
+
+    p {
+      color: $white;
+      font-size: 20px;
+      font-weight: 100;
+      letter-spacing: 1px;
+      margin-top: 30px;
+    }
+  }
+}
+
+img.logo-header{
+  margin-top: 100px;
+  width: 100px;
+  @media screen and (max-width: 992px) {
+    margin-top: 20px;
+  }
+}
+
+p {
+  color: $text-color;
+  font-weight: 300;
+}
+
+.starter-template {
+  padding: 70px 15px;
+  text-align: center;
+}
+
+.white-block {
+  padding: 5.313em 0;
+  @media portrait and (max-width:992px) {
+    padding: 2.625em 0;
+  }
+
+  h3 {
+    color: $almost-black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.500em;
+    font-weight: 600;
+  }
+
+  p {
+    color: $almost-black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  }
+
+  a {
+    margin-top: 2.313em;
+  }
+
+  img {
+    margin: 2.313em 0;
+  }
+
+}
+
+// Share IMG
+figure.shareimg {
+  margin-bottom: 0px;
+  position: relative;
+  overflow: hidden;
+
+  img.back {
+    display: block;
+    width: 100%;
+    height: auto;
+    @media screen and (max-width: 992px) {
+      left: -85%;
+      position: relative;
+      width: 300% !important;
+
+    }
+  }
+
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 70px;
+
+    h2 {
+      color: $white;
+      font-size: 42px;
+      font-weight: 100;
+      font-style: italic;
+      letter-spacing: 1px;
+      position: relative;
+      top: 200px;
+      @media screen and (max-width: 992px) {
+        font-size: 32px;
+        top: 100px;
+      }
+    }
+  }
+}
+
+//Planta
+.back-gray{
+  background-color: lighten( $almost-black, 80%);
+}
+.planta{
+  padding: 5.313em 0;
+  @media portrait and (max-width:992px) {
+    padding: 2.625em 0;
+  }
+  img{
+    width: 100%;
+  }
+
+  ul.espacios{
+    list-style: none;
+    margin-top: 50px;
+  }
+
+  p{
+    color: $almost-black;
+  }
+
+  .squares{
+    width: 16px !important;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+}
+
+.black-background {
+  background-color: $almost-black;
+}
+
+.extra-margin {
+  margin-bottom: 3.750em;
+  @media (max-width: 767px) {
+    margin-bottom: 1.875em;
+  }
+}
+
+.extra-margin-header {
+  margin-top: 9.250em;
+  @media (max-width: 767px) {
+    margin-top: 6em;
+  }
+}
+
+.extra-margin-sides {
+  margin: 0 0.938em;
+  @media (max-width: 767px) {
+    margin: 0;
+  }
+}
+
+.extra-padding {
+  padding-bottom: 15px;
+}
+
+.no-margin {
+  margin-left: 0!important;
+}
