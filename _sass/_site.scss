@@ -94,6 +94,7 @@ p {
 
 .white-block {
   padding: 5.313em 0;
+  overflow: hidden;
   @media portrait and (max-width:992px) {
     padding: 2.625em 0;
   }
@@ -165,6 +166,7 @@ figure.shareimg {
 //Planta
 .back-gray{
   background-color: lighten( $almost-black, 80%);
+  overflow: hidden;
 }
 .planta{
   padding: 5.313em 0;
